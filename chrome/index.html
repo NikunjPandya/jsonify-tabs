@@ -1,0 +1,49 @@
+<html>
+  <head>
+  	<style>
+	.wrap {
+	    width: 100%;
+	}
+
+	.floatleft {
+	    float:left;
+	    height: 600px;
+	    width: 40%;
+	    background-color: lightcyan;
+	}
+
+	.all-copy {
+		background: lightgrey;
+		height: 600px;
+		width: 60%;
+		overflow: visible;
+		font-size: 30px;
+		outline: 1px dashed black;
+		border: 0;
+		outline-offset: -8px;
+		padding: 6px 0 2px 8px;
+	}
+
+	.all-copy p {  
+	  -webkit-user-select: all;  /* Chrome all / Safari all */
+	  -moz-user-select: all;     /* Firefox all */
+	  -ms-user-select: all;      /* IE 10+ */
+	  user-select: all;          /* Likely future */   
+	}
+
+	.floatright {
+	float: right;
+		height: 100%;
+	    background-color: #00ff00;
+	}
+  	</style>
+    <meta charset="utf-8">
+    <title>React.js using NPM, Babel6 and Webpack</title>
+  </head>
+  <body>
+	<div id= "app" style="width: 100%;">
+	</div>
+	<div style="clear:both"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
