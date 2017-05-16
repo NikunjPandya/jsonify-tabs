@@ -1,6 +1,8 @@
 # jsonify-tabs
 
-Convert all tabs in your windo to beautiful json.
+![image](chrome/json.png)
+
+Convert all tabs in your window to beautiful json.
 
 ## usage
 1. Download and unzip.
